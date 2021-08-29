@@ -6,7 +6,7 @@ function HeaderImage() {
     const [name, setName] = useState('')
     useEffect(() => {
         setName("Nakul")
-        axios.get('http://localhost:8080/headerimages/')
+        axios.get('https://filmlysis-backend.herokuapp.com/headerimages/')
             .then(response => {
                 setImageArray(response.data.secureUrls)
                 console.log(response)
