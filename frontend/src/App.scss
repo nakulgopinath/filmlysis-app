@@ -8,13 +8,120 @@
   .headerimagecontainer {
     width: 100%;
     height: 23.5%;
-    // border: 1px solid saddlebrown;
+    background-color: #f0eadb;
 
     .headerimage {
       float: left;
       height: 100%;
       width: 14.28%;
+      opacity: 0.4;
       // border: 0px solid gray;
     }
+  }
+
+  .navbarcontainer {
+    height: 50px;
+    background-color: #bbd1c5;
+    border-bottom: 2px solid;
+
+    .navbarlink {
+      padding-top: 16px;
+      text-decoration: none;
+      padding-right: 30px;
+      display: inline-block;
+      text-transform: uppercase;
+      color: black;
+      font-weight: 450;
+    }
+  }
+  .recentpostscontainer {
+    display: inline-flex;
+    background-color: #e3e3b3;
+    height: 45%;
+    width: 100%;
+    border-bottom: 2px solid;
+
+    .recentpostscategorylabel {
+      position: absolute;
+      text-transform: uppercase;
+      background-color: #b8c16b;
+      border-bottom: 1px solid;
+      border-right: 1px solid;
+      font-size: 12px;
+      font-weight: 500;
+      padding-right: 2px;
+      padding-left: 2px;
+    }
+
+    .recentpostscard {
+      margin-left: 2%;
+      margin-top: 20px;
+      width: 30.65%;
+      height: 90%;
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      .image {
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        height: 50%;
+        width: 100%;
+        border-bottom: 2px solid;
+        display: block;
+      }
+      .text {
+        height: 50%;
+        background-color: #f0eadb;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+      }
+    }
+  }
+  .categorywrapper {
+    height: 100%;
+    display: flex;
+    border-bottom: 2px solid;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    .categorycontainer {
+      // background-color: #f0eadb;
+      height: 100%;
+      width: 66.66%;
+      // padding-left: 15px;
+      padding-right: 15px;
+      display: flex;
+      display: block;
+
+      // background-color: #e3e3b3;
+      .category {
+        display: block;
+        background-color: #e3e3b3;
+        height: 22%;
+        margin-left: 20px;
+        width: 97%;
+        margin-bottom: 10px;
+        margin-top: 15px;
+        // margin: 20px;
+        float: left;
+        // border-bottom: 2px solid;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+          0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      }
+    }
+    .rightsidebar {
+      background-color: #bbd1c5;
+      height: 96.5%;
+      margin-top: 15px;
+      // display: block;
+      width: 33.33%;
+      float: right;
+      // box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.2),
+      //   0 4px 8px 0 rgba(0, 0, 0, 0.19);
+    }
+  }
+  .footer {
+    width: 100%;
+    height: 30%;
+    background-color: #b8c16b;
   }
 }
