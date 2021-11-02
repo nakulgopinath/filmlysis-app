@@ -5,17 +5,19 @@ function Categories() {
         <div className='categorywrapper'>
             <div className='categorycontainer'>
                 <div className='category'>
-
-                </div>
-                <div className='category'>
-
-                </div>
-                <div className='category'>
-
+                    <img className='categoryimage' />
                 </div>
 
                 <div className='category'>
+                    <img className='categoryimage' />
+                </div>
 
+                <div className='category'>
+                    <img className='categoryimage' />
+                </div>
+
+                <div className='category'>
+                    <img className='categoryimage' />
                 </div>
 
 
